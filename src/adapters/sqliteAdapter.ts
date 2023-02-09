@@ -1,7 +1,7 @@
-import { readFileSync, rm } from 'fs'
 import { resolve } from 'path'
 import { promisify } from 'util'
 import { exec } from 'child_process'
+import { readFileSync, rm } from 'fs'
 
 import { EnvironmentAdapterOptions, EnvironmentDatabaseCredentials, SqliteEnvironmentAdapterOptions } from '../@types'
 
